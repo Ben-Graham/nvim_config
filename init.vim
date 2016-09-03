@@ -1,4 +1,4 @@
-" ------------------------------- Vim-Plug -------------------------------
+"------------------------------- Vim-Plug -------------------------------
 set rtp+=~/.nvim/autoload/plug.vim
 call plug#begin()
 Plug 'junegunn/vim-easy-align'
@@ -10,6 +10,7 @@ Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' }
 Plug 'flazz/vim-colorschemes'
 Plug 'dagwieers/asciidoc-vim'
 Plug 'kien/rainbow_parentheses.vim'
+Plug 'kien/ctrlp.vim'
 call plug#end()
 " ------------------------------- General -------------------------------
 set nocompatible
@@ -17,6 +18,7 @@ filetype off
 
 inoremap jk <esc>
 
+set relativenumber
 set tabstop=4
 set shiftwidth=4
 set expandtab
