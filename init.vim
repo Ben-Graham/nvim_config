@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 "------------------------------ Vim-Plug -------------------------------
+=======
+"------------------------------- Vim-Plug -------------------------------
+>>>>>>> 006625b08d66ace5c131ce49345ff218e4a426d0
 set rtp+=~/.nvim/autoload/plug.vim
 call plug#begin()
 Plug 'junegunn/vim-easy-align'
@@ -6,6 +10,10 @@ Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'bling/vim-airline'
 Plug 'easymotion/vim-easymotion'
+<<<<<<< HEAD
+=======
+Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' }
+>>>>>>> 006625b08d66ace5c131ce49345ff218e4a426d0
 Plug 'flazz/vim-colorschemes'
 Plug 'dagwieers/asciidoc-vim'
 Plug 'kien/rainbow_parentheses.vim'
@@ -28,7 +36,11 @@ let mapleader=","
 
 syntax on
 set nu
+<<<<<<< HEAD
 colorscheme Tomorrow-Night
+=======
+colorscheme Tomorrow-Night 
+>>>>>>> 006625b08d66ace5c131ce49345ff218e4a426d0
 
 set wildmenu
 set wildmode=longest:full,full
@@ -47,11 +59,14 @@ let g:syntastic_warning_symbol = "⚠"
 let g:syntastic_asciidoc_asciidoc_exec = 'asciidoctor'
 let g:airline#extensions#tabline#enabled = 1
 
+<<<<<<< HEAD
 augroup autocom
     autocmd!
     :autocmd VimLeave *.cpp,*.h execute '!astyle' shellescape(expand('%'), 1)
 augroup END
 
+=======
+>>>>>>> 006625b08d66ace5c131ce49345ff218e4a426d0
 "----regex----"
 "nnoremap / /\c
 "vnoremap / /\c
